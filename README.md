@@ -125,8 +125,7 @@ Prevê a nota de uma review a partir do texto. Extraí atributos léxicos e de s
 
 - Desenvolvi testes ponta a ponta para recursos de IA generativa que rodam no celular, como resumo de notificações e transcrição e resumo de notas de voz, com Python e PyTest em execução paralela em vários aparelhos, o que permite validar cada nova versão do modelo de forma repetível.
 - Criei cenários de prompt injection a partir de um dataset de entradas adversariais, verificando a integridade das respostas e o vazamento das instruções do sistema, para encontrar falhas de segurança antes da produção.
-- Construí um agente avaliador (LLM como juiz) rodando localmente com Ollama e saída estruturada validada com Pydantic, que dá notas por critério e aponta alucinações, substituindo a revisão manual das respostas e gerando os relatórios usados para aprovar versões.
-- Automatizei a entrada de áudio direto no app com Frida e a coleta das transcrições e resumos gerados, dispensando a gravação manual de cada caso de teste.
+- Construí um agente avaliador (LLM como juiz) rodando localmente com Ollama e saída estruturada validada com Pydantic, que dá notas por critério e aponta alucinações, substituindo a revisão manual das respostas e gerando relatórios quantitativos e qualitativos usados para aprovar versões dos modelos.
 
 ### Sentinela · Bolsista de visão computacional e IA
 
