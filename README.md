@@ -30,7 +30,7 @@ Avaliação de LLMs · Visão computacional · Aprendizado de máquina
 
 Sou graduando em Engenharia de Computação na Escola Superior de Tecnologia da UEA, em Manaus, e estagiário de AI Quality Assurance no INDT.
 
-No estágio, testo modelos de linguagem de texto e imagem (LLMs e LMMs) antes de irem para produção. Escrevo as automações de teste em Python e PyTest e procuro alucinações, respostas inconsistentes e tentativas de burlar as regras do sistema. Também montei uma etapa de avaliação em que um LLM rodando localmente pelo Ollama dá notas aos resumos gerados por outro modelo, com critérios como consistência factual, completude e concisão.
+No estágio, testo modelos de linguagem de texto e imagem (LLMs e LMMs) antes de irem para produção. Escrevo as automações de teste em Python e PyTest e procuro alucinações, respostas inconsistentes e tentativas de burlar as regras do sistema. Também criei um agente avaliador: um LLM rodando localmente pelo Ollama que dá notas aos resumos gerados por outro modelo e aponta o que foi alucinado, trabalho que antes seria revisão manual.
 
 Antes disso, trabalhei com visão computacional, em reconhecimento de placas veiculares com YOLOv8 e OCR, e com aprendizado de máquina sobre dados clínicos. Na iniciação científica (PIBIC), comparo CNNs na detecção de câncer renal em tomografias.
 
@@ -125,10 +125,12 @@ Prevê a nota de uma review a partir do texto. Extraí atributos léxicos e de s
 
 <sub>Abr. 2026 – atual</sub>
 
-- Automações de teste para LLMs e LMMs, cobrindo uso normal e cenários de estresse (Python, PyTest).
-- Análise das saídas dos modelos para encontrar alucinações, respostas inconsistentes e tentativas de burlar as regras do sistema.
-- Avaliação com LLM como juiz: um modelo aberto rodando no Ollama compara cada resumo gerado com o texto original, dá notas por critério e lista os trechos alucinados.
-- Relatórios quantitativos e qualitativos usados para aprovar melhorias antes da produção.
+Testo recursos de IA generativa que rodam no próprio celular, com testes ponta a ponta em Python e PyTest executados em paralelo em vários aparelhos.
+
+- **Resumo de notificações por LLM:** 127 casos de prompt injection para verificar se o modelo mantém a resposta íntegra e não vaza as instruções do sistema.
+- **Agente avaliador (LLM como juiz):** o Qwen 3.5 9B, rodando localmente pelo Ollama, compara cada resumo com as notificações originais. Ele dá notas de 0 a 5 em consistência factual, completude, concisão, coerência e qualidade geral, lista os trechos alucinados e justifica a avaliação. A saída é validada com Pydantic e vira CSV para o relatório.
+- **Notas de voz com transcrição e resumo por IA:** injeto 72 gravações direto na captura de áudio do app com Frida (convertidas para PCM de 16 kHz), automatizo a interface e extraio a transcrição e o resumo gerados para avaliação.
+- Relatórios quantitativos e qualitativos usados para aprovar versões dos modelos antes da produção.
 
 ### Sentinela · Bolsista de visão computacional e IA
 
