@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="154" viewBox="0 0 360 154" role="img" aria-label="Linguagens mais usadas">
+<style>
+  .bg { fill: #FFFFFF; stroke: #D0D7DE; }
+  .h { font: 600 15px 'Segoe UI', Ubuntu, sans-serif; fill: #1F2328; }
+  .t { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #424A53; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0D1117; stroke: #30363D; }
+    .h { fill: #E6EDF3; }
+    .t { fill: #9198A1; }
+  }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="359" height="153" rx="6"/>
+<text x="20" y="32" class="h">Linguagens mais usadas</text>
+<clipPath id="r"><rect x="20" y="48" width="320" height="8" rx="4"/></clipPath>
+<g clip-path="url(#r)"><rect x="20.00" y="48" width="211.31" height="8" fill="#3572A5"/><rect x="231.31" y="48" width="40.56" height="8" fill="#41B883"/><rect x="271.87" y="48" width="20.61" height="8" fill="#3178C6"/><rect x="292.48" y="48" width="17.45" height="8" fill="#B07219"/><rect x="309.93" y="48" width="17.36" height="8" fill="#A97BFF"/><rect x="327.29" y="48" width="12.71" height="8" fill="#B2B7F8"/></g>
+<circle cx="25" cy="78" r="5" fill="#3572A5"/><text x="36" y="82" class="t">Python 66.0%</text><circle cx="195" cy="78" r="5" fill="#41B883"/><text x="206" y="82" class="t">Vue 12.7%</text><circle cx="25" cy="102" r="5" fill="#3178C6"/><text x="36" y="106" class="t">TypeScript 6.4%</text><circle cx="195" cy="102" r="5" fill="#B07219"/><text x="206" y="106" class="t">Java 5.5%</text><circle cx="25" cy="126" r="5" fill="#A97BFF"/><text x="36" y="130" class="t">Kotlin 5.4%</text><circle cx="195" cy="126" r="5" fill="#B2B7F8"/><text x="206" y="130" class="t">Verilog 4.0%</text>
+</svg>
