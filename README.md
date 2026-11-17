@@ -10,6 +10,9 @@ Visão computacional · Processamento de linguagem natural · Aprendizado profun
   <a href="https://github.com/thiagocordeirum">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  <a href="https://www.linkedin.com/in/cordeirodmthiago/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
 </p>
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
@@ -26,7 +29,7 @@ Visão computacional · Processamento de linguagem natural · Aprendizado profun
 
 Sou graduando em Engenharia da Computação na Escola Superior de Tecnologia da UEA, em Manaus.
 
-Meu foco é inteligência artificial, principalmente visão computacional e processamento de linguagem natural. Na iniciação científica (PIBIC), com o Prof. Dr. Wheidima Carneiro de Melo, estudo a classificação de câncer renal em tomografias com redes convolucionais. Apresentei o artigo dessa primeira etapa no XXX Congresso Brasileiro de Engenharia Biomédica (CBEB 2026).
+Meu foco é inteligência artificial, principalmente visão computacional e processamento de linguagem natural. Na iniciação científica (PIBIC), com o Prof. Dr. Wheidima Carneiro de Melo, estudo a classificação de câncer renal em tomografias com redes convolucionais.
 
 Nas disciplinas, treinei CNNs para classificação de imagens, modelos YOLO para detecção e segmentação e classificadores de sentimento em texto. Também desenvolvo aplicações web com Vue e TypeScript e APIs em Python.
 
