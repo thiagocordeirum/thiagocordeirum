@@ -52,7 +52,9 @@ O LLM só interpreta o pedido e redige a resposta. Somas e limites são calculad
 
 **Tecnologias:** API de LLM, TypeScript, Supabase (Postgres, Auth e Edge Functions) e Telegram Bot API.
 
-<sub>Repositório privado, pois tem dados pessoais.</sub>
+<a href="https://github.com/thiagocordeirum/leve">
+  <img src="https://img.shields.io/badge/Ver_repositório-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver repositório do Leve"/>
+</a>
 
 </td>
 <td width="50%" valign="top">
